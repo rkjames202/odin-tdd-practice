@@ -1,0 +1,25 @@
+{
+  "name": "odin-tdd-practice",
+  "version": "1.0.0",
+  "description": "Some practice code following test driven development design. Test running system being used is Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkjames202/odin-tdd-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkjames202/odin-tdd-practice/issues"
+  },
+  "homepage": "https://github.com/rkjames202/odin-tdd-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.5.0"
+  }
+}
