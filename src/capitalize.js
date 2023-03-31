@@ -19,7 +19,7 @@ function capitalize(string) {
     //Capitalize it
     firstLetter = firstLetter[0].toUpperCase();
   } else {
-    //Return original string
+    //Return original string that has no alphabetical characters
     return string;
   } 
 

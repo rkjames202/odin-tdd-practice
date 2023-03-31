@@ -19,17 +19,19 @@ test("Spaces in between characters", () => {
 });
 
 test("Special characters in between alphabetical characters", () => {
-    expect(capitalize("not$!$@your$@$$average$!@$string")).toBe("Not$!$@your$@$$average$!@$string");
+  expect(capitalize("not$!$@your$@$$average$!@$string")).toBe(
+    "Not$!$@your$@$$average$!@$string"
+  );
 });
 
 test("Special characters inside and around alphabetical character(s)", () => {
-    expect(capitalize("#!$%!%!abc#@$ppp@$@")).toBe("#!$%!%!Abc#@$ppp@$@");
+  expect(capitalize("#!$%!%!abc#@$ppp@$@")).toBe("#!$%!%!Abc#@$ppp@$@");
 });
 
 test("Just special characters", () => {
-    expect(capitalize("!@!$!%!@#")).toBe("!@!$!%!@#");
+  expect(capitalize("!@!$!%!@#")).toBe("!@!$!%!@#");
 });
 
 test("Empty string", () => {
-    expect(capitalize(" ")).toBe(" ");
+  expect(capitalize(" ")).toBe(" ");
 });
