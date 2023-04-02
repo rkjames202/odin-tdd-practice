@@ -2,7 +2,7 @@
  * Creates an array of lowercase alphabetical 
  * characters.
  * 
- * @returns - array of alphabetical characters
+ * @returns - Array of alphabetical characters
  */
 function generateAlphabet() {
   //Get the unicode values for 'a' and 'z'
@@ -21,7 +21,7 @@ function generateAlphabet() {
 /**
  * Tests if a character is alphabetical or not.
  * 
- * @param {String} letter 
+ * @param {String} letter - Alphabetical character
  * @returns 
  */
 function isAlpha(letter) {
@@ -33,8 +33,8 @@ function isAlpha(letter) {
  * to shift each alphabetical character in the string a number
  * of places.
  * 
- * @param {String} string 
- * @param {Number} key 
+ * @param {String} string - String of characters
+ * @param {Number} key - Key that will act as shift factor
  * @returns 
  */
 function caesarCipher(string, key) {

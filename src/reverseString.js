@@ -1,8 +1,8 @@
 /**
  * Takes a string an returns it reversed
  *
- * @param {String} string - string to be reversed
- * @returns - a reversed string
+ * @param {String} string - String to be reversed
+ * @returns - A reversed string
  */
 function reverseString(string) {
   if (typeof string !== "string") {

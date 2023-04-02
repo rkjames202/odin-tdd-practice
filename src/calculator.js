@@ -4,11 +4,11 @@ function Calculator() {}
 //Object methods
 
 /**
- * Adds two numbers
+ * Adds two numbers.
  * 
- * @param {Number} num1 
- * @param {Number} num2 
- * @returns - sum of two numbers
+ * @param {Number} num1 - Left operand
+ * @param {Number} num2 - Right operand
+ * @returns - Sum of two numbers
  */
 Calculator.prototype.add = function (num1, num2) {
   this.checkNum(num1, num2);
@@ -16,11 +16,11 @@ Calculator.prototype.add = function (num1, num2) {
 };
 
 /**
- * Subtracts two numbers
+ * Subtracts two numbers.
  * 
- * @param {Number} num1 
- * @param {Number} num2 
- * @returns - difference of two numbers
+ * @param {Number} num1 -Left operand
+ * @param {Number} num2  - Right operand
+ * @returns - Difference of two numbers
  */
 Calculator.prototype.subtract = function (num1, num2) {
   this.checkNum(num1, num2);
@@ -28,11 +28,11 @@ Calculator.prototype.subtract = function (num1, num2) {
 };
 
 /**
- * Divides two numbers
+ * Divides two numbers.
  * 
- * @param {Number} num1 
- * @param {Number} num2 
- * @returns - quotient of two numbers
+ * @param {Number} num1 - Left operand
+ * @param {Number} num2  - Right operand
+ * @returns - Quotient of two numbers
  */
 Calculator.prototype.divide = function (num1, num2) {
   this.checkNum(num1, num2);
@@ -40,11 +40,11 @@ Calculator.prototype.divide = function (num1, num2) {
 };
 
 /**
- * Multiplies numbers
+ * Multiplies numbers.
  * 
- * @param {Number} num1 
- * @param {Number} num2 
- * @returns - product of two numbers
+ * @param {Number} num1 - Left operand 
+ * @param {Number} num2 - Right operand
+ * @returns - Product of two numbers
  */
 Calculator.prototype.multiply = function (num1, num2) {
   this.checkNum(num1, num2);
@@ -52,10 +52,10 @@ Calculator.prototype.multiply = function (num1, num2) {
 };
 
 /**
- * Checks if two values are of type number
+ * Checks if two values are of type number.
  * 
- * @param {Number} num1 
- * @param {Number} num2 
+ * @param {Number} num1 - Left operand
+ * @param {Number} num2 - Right operand
  */
 Calculator.prototype.checkNum = function (num1, num2) {
   if (typeof num1 !== "number" || typeof num2 !== "number") {
@@ -64,10 +64,10 @@ Calculator.prototype.checkNum = function (num1, num2) {
 };
 
 /**
- * Formats a number up to 4 decimals places
+ * Formats a number up to 4 decimals places.
  * 
- * @param {Number} num 
- * @returns - formatted number
+ * @param {Number} num - Number to be formatted
+ * @returns - Formatted number
  */
 Calculator.prototype.formatResult = function(num) {
     let formatNum = num;

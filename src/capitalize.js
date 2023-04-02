@@ -3,7 +3,7 @@
  * within the string capitalized.
  * 
  * @param {String} string - String to be read 
- * @returns - string with first character capatilized
+ * @returns - String with first character capitalized
  */
 function capitalize(string) {
   //After trimming, if length of string is 0 assume string is empty 
